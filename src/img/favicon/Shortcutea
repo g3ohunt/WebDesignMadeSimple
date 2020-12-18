@@ -1,0 +1,16 @@
+Ctrl + Alt + D	Minimize all windows to show desktop.
+Ctrl + Alt + T	Launch Terminal.
+Super + L	Lock the current session.
+
+
+Bash Keyboard Shortcuts
+Ctrl + A	Go to the beginning of the selected line.
+Ctrl + E	Go to the end of the selected line.
+Ctrl + K	Cut the part of the selected line after the cursor and copy it to the clipboard.
+Arrow Up	Previously used command.
+Alt + B	Move the cursor back one word.
+Alt + F	Move the cursor forward one word.
+Ctrl + L	Clean the current screen.
+Ctrl + J	Enter the Newline control character.
+Ctrl + R	Search in your Bash history.
+Ctrl + G	Exit the history searching mode.

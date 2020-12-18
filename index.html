@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Webdesign made simple</title>
+    
+        <!-- ! Favicons  -->
+
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway:ital@1&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway:ital@1&display=swap" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="./src/img/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./src/img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./src/img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="./src/img/favicon/site.webmanifest">
+        <link rel="mask-icon" href="./src/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="./src/img/favicon/favicon.ico">
+        <meta name="msapplication-TileColor" content="#f0f0f0">
+        <meta name="msapplication-config" content="./src/img/favicon/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+    
+        <!-- ! Autoren Stylesheet -->
+
+        <link rel="stylesheet" href="src/css/style.css">
+    </head>
+
+
+<body>
+
+    <!-- ! Navigationsbar -->
+
+    <nav id="header-bar">
+
+        <!-- ! Desktop Navigation -->
+   
+        <div class="container" id="desktop-nav">
+            <div class="row">
+                <div class="col-6">
+
+                    <a href="index.html" class="logo-link">
+                        <img src="./src/img/webdesign-logo.png" alt="Webdesign Logo"> 
+                    </a>                    
+                
+                        <ul>
+                            <li class="active"><a href="index.html">Startseite</a></li>
+                            <li><a href="leistungen.html">Leistungen</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
+                            <li><a href="impressum.html">Impressum</a></li>                        
+                        </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- ! Mobile Navigation -->
+
+        <div class="container" id="mobile-nav">
+            <div class="row">
+                <div class="col-6">
+
+                    <a href="index.html" class="logo-link">
+                        <img src="src/img/webdesign-logo.png" alt="Webdesign-Logo"> 
+                    </a>
+
+                    <div id="mobile-nav-dropdown" class="clearfix">
+
+                        <div id="mobile-nav-button"><span>&equiv;</span></div>
+
+                            <div class="clearfix" id="mobile-nav-content">
+
+                                    <ul>
+                                        <li class="active"><a href="index.html">Startseite</a></li>
+                                        <li><a href="leistungen.html">Leistungen</a></li>
+                                        <li><a href="kontakt.html">Kontakt</a></li>
+                                        <li><a href="impressum.html">Impressum</a></li>
+                                    </ul>
+
+                            </div>
+                    </div>
+
+               </div>                  
+            </div>
+        </div>
+
+    </nav>
+
+
+
+    <!-- ! Header Banner -->
+
+    <header id="header-banner"></header>
+
+
+
+    <!-- ! Newsletter Bereich -->
+
+    <section id="newsletter-bereich">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    
+                    <p id="nb-werbetext"><span class="wichtiger-text">Melde dich jetzt für den Newsletter an</span> und verpasse nichts mehr! </p>
+
+
+                </div>
+                <div class="col-2 clearfix">
+
+                    <form id="nb-form" action="index.html" method="post">
+
+                        <label class="screenreader" for="nb-email-input">E-Mail</label>
+                        <input id="nb-email-input" type="text" name="email" placeholder="Email" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" title="E-Mail">
+
+
+                        <button id="nb-btn" type="submit" class="btn-typ1">Jetzt anmelden</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+
+
+    <!-- ! Logo -->
+
+
+
+    <div id="annimiertesFoto">
+        <img src="./src/img/webdesign-logo-klein.png" alt="Webdesiggn Annimation">
+    </div>
+
+    <!--  
+        
+        ! Leistungen Bereich 
+    
+        Emmet abkürzung : section#leistungen-bereich>div.container>div.row>div.col-1>h1{Unsere Leistungen}+p^^(div.row>(div.col-3>h2{Leistung #$}+p+a)*2)*2
+    
+    -->
+
+    <section id="leistungen-bereich">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <header class="intro-container">
+                        <h1>WEBDESIGN MADE SIMPLE!</h1>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labo
+                            re et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                             rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                              dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolo
+                              re magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+                              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                            </p>
+                    </header>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <article class="leistungs-box">
+                        <h2>Leistung #1</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l
+                            abore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores 
+                            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lore
+                            m ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labor
+                            e et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                             rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                            </p>
+                        <a class="btn-typ-2" class="leistung-ansehen-btn" href="leistungen.html#leistung1">Mehr ansehen</a>
+                    </article>  
+                </div>
+                <div class="col-3">
+                    <article class="leistungs-box">
+                        <h2>Leistung #2</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                             et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebu
+                             m. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolo
+                             r sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore 
+                             magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet cl
+                             ita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                            </p>
+                        <a class="btn-typ-2" class="leistung-ansehen-btn" href="leistungen.html#leistung2">Mehr ansehen</a>
+                    </article>
+                </div>
+                
+
+
+            <div class="row">
+                <div class="col-3">
+                    <article class="leistungs-box">
+                        <h2>Leistung #3</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore e
+                            t dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                             Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                              amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliq
+                              uyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd g
+                              ubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                            </p>
+                        <a class="btn-typ-2" class="leistung-ansehen-btn" href="leistungen.html#leistung3">Mehr ansehen</a>
+
+                    </article>
+                </div>
+
+
+                <div class="col-3">
+                    <article class="leistungs-box">
+                        <h2>Leistung #4</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l
+                            abore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                             et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lore
+                             m ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labo
+                             re et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et 
+                             ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        </p>
+                        <a class="btn-typ-2" class="leistung-ansehen-btn" href="leistungen.html#leistung4">Mehr ansehen</a>
+                    </article>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- ! Video-Bereich -->
+
+
+
+    <section id="video-bereich">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <header class="intro-container">
+                        <h1>Das sind wir</h1>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et</p>
+                    </header>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <video src="./src/mov/WEBDESIGN+made+simple+-+Trailer.mp4" controls>
+                                    
+                        <p>Das video kann leider nicht wiedergegeben werden.
+                            Du findest es jedoch auch <a href="https://youtu.be/Ut2goGezYM4">hier</a>
+                        </p>
+                    
+                    </video>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+    
+
+
+    <!-- ! Service-bereich -->
+
+
+    <section id="service-bereich">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <header class="intro-container">
+                        <h1>Unsere Services</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut 
+                            labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores e
+                            t ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem i
+                            psum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et 
+                            dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+                            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        </p>
+                    </header>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+
+                    <article class="service-box">
+                        <div class="service-icon" id="guenstig-icon"></div>
+                        <h1>Günstige Angebote</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore e
+                            t dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+                            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        </p>
+                    </article>
+                </div>
+
+                <div class="col-2">
+
+                    <article class="service-box">
+                        <div class="service-icon" id="schnell-icon"></div>
+                        <h1>Schnelle Lieferung</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                             dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                              clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        </p>
+                    </article>
+                </div>
+
+                <div class="col-2">
+
+                    <article class="service-box"> 
+                        <div class="service-icon" id="modern-icon"></div>
+                        <h1>Modernes Design</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        </p>
+                    </article>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+
+
+
+    <!-- ! Über-uns-Bereich -->
+
+
+
+    <section id="über-uns-bereich">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-6">
+                    <header class="intro-container">
+                        <h1>Das sind wir</h1>
+                        
+                    </header>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <article id="über-uns-container">
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                            idunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+                               duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                             ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo 
+                             dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                              amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor inv
+                              idunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+                               duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        </p>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut 
+                            labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                             et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lo
+                             rem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod Lorem ipsum dolor sit amet, 
+                             consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut la
+                             bore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et 
+                             ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ips te
+                             mpor invidunt ut la
+                             bore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                              et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        </p>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut la
+                            bore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et 
+                            ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ips
+                            um dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dol
+                            ore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Ste
+                            t clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut la
+                            bore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et 
+                            ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ips
+                        </p>
+
+
+                        <img src="./src/img/webdesign-logo-vertical.png" alt="Vertical Webdesign Logo">
+
+                    </article>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ! Footer-Bereich -->
+
+    <footer id="footer" >
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <span>Webdesign made Simple by Isa (2020)</span>
+                    <nav id="footer-nav">
+                        <a href="impressum.html">Impressum</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+    
+
+
+</body>
+
+</html> 
